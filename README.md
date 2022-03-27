@@ -1,9 +1,6 @@
-# capstone-project
-Repository to showcase and demo Group 21's capstone project.
-Original App Design Project - README Template
+Group 21's Original App Design: Decision Maker
 ===
-
-# APP_NAME_HERE
+Does the word "indecisive" describe you? Have you ever tried to decide on what to eat alone or with a group, and spent hours deliberating due to not really feeling strongly about any kind of cuisine? If so, our group has the perfect solution for you! The goal of this app is to make deciding on breakfast/lunch/dinner and everything in between for you and whoever you're with effortless and fun. With the advent of this revolutionary application, you'll never have to make grown-up decisions like a well-adjusted adult again!
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -13,16 +10,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+Application that choses an option for you from a given list.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Fun, random, food.
+- **Mobile:** This app would be develop for mobile only.
+- **Story:** Helps the undecited user with picking a choice to eat from a given set of options.
+- **Market:** Everyone wiht a phone 
+- **Habit:** This app would be used when deciding what to each or what to cook. 
+- **Scope:** This app is used by an individual user, but there is the potential to connect with other users and have a polling system to make a decision between all users. 
 
 ## Product Spec
 
@@ -30,30 +27,37 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+Help me choose!
+* User should be able to enter as many options as they want
+* User should able to see a pop up with the decision chosen from the options they entered
+
+I don't know what i want 
+* -> api
+
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+
+* Show me some receipes!
+* Group poll (???)
+* "Loading" message to indicate choice being made
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Log in 
+   * User types in a username and password
+* Sign up
+   * User enters a new username and password, possiblely email to make it easier
+* Main screen
+    * User enters a list of options, then there is an a button [Help me choose!] that will generate a random option from the given list. 
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* [Help me choose!]
+* [I don't know what I want]
+* Logout button
 
 **Flow Navigation** (Screen to Screen)
 
