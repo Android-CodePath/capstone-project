@@ -72,7 +72,11 @@ I don't know what i want
 
 ### [BONUS] Digital Wireframes & Mockups
 
+<a href="https://ibb.co/tJHh6q7"><img src="https://i.ibb.co/9rpv0bF/Screen-Shot-2022-04-08-at-10-21-57-PM.png" alt="Screen-Shot-2022-04-08-at-10-21-57-PM" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>free image hosting</a><br />
+
 ### [BONUS] Interactive Prototype
+
+![ezgif com-gif-maker (48)](https://user-images.githubusercontent.com/73797804/162553283-d1147a08-d835-439f-8331-a416caaccdc7.gif)
 
 ## Schema
 [This section will be completed in Unit 9]
