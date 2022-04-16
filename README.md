@@ -31,8 +31,10 @@ Application that choses an option for you from a given list.
 **Required Must-have Stories**
 
 Help me choose!
-* User should be able to enter as many options as they want
-* User should able to see a pop up with the decision chosen from the options they entered
+- [X] User should be able to see a splash screen
+- [ ] User have two options to choose from in main screen 
+- [ ] User should be able to enter as many options as they want
+- [ ] User should able to see a pop up with the decision chosen from the options they entered
 
 I don't know what i want
 * -> api
@@ -41,14 +43,16 @@ I don't know what i want
 **Optional Nice-to-have Stories**
 
 
-* Show me some receipes!
-* Group poll (???)
-* "Loading" message to indicate choice being made
+- [ ] Show me some receipes!
+- [ ] Group poll (???)
+- [ ] Loading" message to indicate choice being made
 
 ### 2. Screen Archetypes
 
 * Main screen
-  * User enters a list of options, then there is an a button [Help me choose!] that will generate a random option from the given list.
+  * User should be see two options to choose from 
+* Add choices screen
+  * User can add their choices 
 
 ### 3. Navigation
 
