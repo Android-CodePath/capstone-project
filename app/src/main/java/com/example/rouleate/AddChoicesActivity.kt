@@ -12,7 +12,7 @@ class AddChoicesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_add_choices)
+        setContentView(R.layout.fragment_user_list)
 
         // Register when user clicks on the add button
         findViewById<Button>(R.id.add_button).setOnClickListener{
