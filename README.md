@@ -135,3 +135,6 @@ I don't know what i want
 | --------- | -------- | --------------------------------------------------------------- |
 | GET       | /businesses | Returns up to 1000 businesses based on provided search criteria |
 
+
+![ezgif com-gif-maker (49)](https://user-images.githubusercontent.com/73797804/163660214-aee0bad9-85bf-49c0-8638-bca271ec4c63.gif)
+
