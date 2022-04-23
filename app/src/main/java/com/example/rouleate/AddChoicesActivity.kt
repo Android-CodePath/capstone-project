@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 class AddChoicesActivity : AppCompatActivity() {
 
     // Holds the list of choices, this will most likely change once we have the database set up
-    val listOfChoices = mutableListOf<String>()
+    private val listOfChoices = mutableListOf<String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,7 +44,7 @@ class AddChoicesActivity : AppCompatActivity() {
                 adapter.notifyItemInserted(listOfChoices.size -1)
 
                 // 3. Reset text field
-                inputTextChoice.setText("Enter your choice")
+                inputTextChoice.setText("")
 
         }
     }

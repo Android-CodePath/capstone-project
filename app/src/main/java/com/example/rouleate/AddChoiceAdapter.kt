@@ -16,16 +16,15 @@ class AddChoiceAdapter(val listOfChoices: List<String>): RecyclerView.Adapter<Ad
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val context = parent.context
         val inflater = LayoutInflater.from(context)
-        val contactView = inflater.inflate(android.R.layout.simple_list_item_1, parent, false)
+        val contactView = inflater.inflate(android.R.layout.simple_expandable_list_item_1, parent, false)
 
         return ViewHolder(contactView)
     }
 
     // Populate layout inside viewHolder
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        TODO("Not yet implemented")
 
-        val item = listOfChoices.get(position)
+        val item = listOfChoices[position]
 
         holder.textView.text = item
     }
