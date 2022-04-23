@@ -148,4 +148,4 @@ I don't know what i want
 #### App Progress, adding and creating a list of choices 
 
 
-![ezgif com-gif-maker (49)](https://user-images.githubusercontent.com/73797804/163660214-aee0bad9-85bf-49c0-8638-bca271ec4c63.gif)
+![ezgif com-gif-maker (49)](https://github.com/Android-CodePath/capstone-project/blob/main/Milestone3.gif)
