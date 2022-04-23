@@ -81,7 +81,7 @@ I don't know what i want
 
 ### [BONUS] Interactive Prototype
 
-![ezgif com-gif-maker (48)](https://user-images.githubusercontent.com/73797804/162553283-d1147a08-d835-439f-8331-a416caaccdc7.gif)
+![ezgif com-gif-maker (48)](https://github.com/Android-CodePath/capstone-project/blob/main/Milestone3.gif)
 
 ## Schema
 [This section will be completed in Unit 9]
