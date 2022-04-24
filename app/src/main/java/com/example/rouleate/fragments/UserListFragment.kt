@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.rouleate.AddChoiceAdapter
@@ -25,6 +26,7 @@ class UserListFragment : Fragment() {
 
     // Holds the list of choices, this will most likely change once we have the database set up
     private val listOfChoices = mutableListOf<String>()
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -59,6 +61,11 @@ class UserListFragment : Fragment() {
             // 3. Reset text field
             inputTextChoice.setText("")
 
+        }
+
+        // Find make selection button
+        view.findViewById<Button>(R.id.selection_button).setOnClickListener{
+            Toast.makeText(activity, "Make the logic of selection", Toast.LENGTH_SHORT).show()
         }
 
     }
