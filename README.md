@@ -32,8 +32,8 @@ Application that choses an option for you from a given list.
 
 Help me choose!
 - [X] User should be able to see a splash screen
-- [ ] User have two options to choose from in main screen 
-- [ ] User should be able to enter as many options as they want
+- [X] User have two options to choose in the navigation bar 
+- [X] User should be able to enter as many options as they want
 - [ ] User should able to see a pop up with the decision chosen from the options they entered
 
 I don't know what i want
@@ -81,7 +81,7 @@ I don't know what i want
 
 ### [BONUS] Interactive Prototype
 
-![ezgif com-gif-maker (48)](https://user-images.githubusercontent.com/73797804/162553283-d1147a08-d835-439f-8331-a416caaccdc7.gif)
+![ezgif com-gif-maker (48)](https://github.com/Android-CodePath/capstone-project/blob/main/Milestone3.gif)
 
 ## Schema
 [This section will be completed in Unit 9]
@@ -143,3 +143,9 @@ I don't know what i want
 
 ![ezgif com-gif-maker (49)](https://user-images.githubusercontent.com/73797804/163660214-aee0bad9-85bf-49c0-8638-bca271ec4c63.gif)
 
+## Unit 8: Milestone #2 GIF's 
+
+#### App Progress, adding and creating a list of choices 
+
+
+![ezgif com-gif-maker (49)](https://github.com/Android-CodePath/capstone-project/blob/main/Milestone3.gif)
