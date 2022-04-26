@@ -11,9 +11,13 @@ import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.rouleate.AddChoiceAdapter
+import com.example.rouleate.Communicator
 import com.example.rouleate.R
+import kotlin.random.Random
 
 class UserListFragment : Fragment() {
+
+    private lateinit var communicator: Communicator
 
     // This is where we tell the fragment which layout to use
     override fun onCreateView(
@@ -30,7 +34,9 @@ class UserListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        // Set onClicklisteners and setup logic
+
+        // Initialized communicator to pass data between fragments
+        communicator = activity as Communicator
 
         // Find RecyclerView Layout
         val recyclerView = view.findViewById<RecyclerView>(R.id.rv_list_choices)
@@ -64,10 +70,15 @@ class UserListFragment : Fragment() {
         }
 
         // Find make selection button
+        // Register when user clicks on select choice
         view.findViewById<Button>(R.id.selection_button).setOnClickListener{
-            Toast.makeText(activity, "Make the logic of selection", Toast.LENGTH_SHORT).show()
+            //Toast.makeText(activity, "Make the logic of selection", Toast.LENGTH_SHORT).show()
+
+            // Find a random index from the list and reference the string by indexing
+            val randomIndex = Random.nextInt(listOfChoices.size)
+            val randomElement = listOfChoices[randomIndex]
+            communicator.passDataCom(randomElement)
         }
 
     }
-
 }

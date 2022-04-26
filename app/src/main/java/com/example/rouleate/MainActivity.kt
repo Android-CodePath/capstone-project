@@ -9,9 +9,10 @@ import androidx.fragment.app.FragmentManager
 import com.example.rouleate.databinding.ActivityMainBinding
 import com.example.rouleate.fragments.OurListFragment
 import com.example.rouleate.fragments.UserListFragment
+import com.example.rouleate.fragments.UserSelectionFragment
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), Communicator {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,5 +47,18 @@ class MainActivity : AppCompatActivity() {
 
         // Set default selection
         findViewById<BottomNavigationView>(R.id.nav_view).selectedItemId = R.id.navigation_user_list
+    }
+
+    override fun passDataCom(editTextInput: String) {
+        val bundle = Bundle()
+        bundle.putString("message", editTextInput)
+
+        val transaction = this.supportFragmentManager.beginTransaction()
+        val userSelectionFragment = UserSelectionFragment()
+        userSelectionFragment.arguments = bundle
+
+        // flContainer comes from the main activity, it will be replace by the new activity
+        transaction.replace(R.id.flContainer, userSelectionFragment)
+        transaction.commit()
     }
 }
