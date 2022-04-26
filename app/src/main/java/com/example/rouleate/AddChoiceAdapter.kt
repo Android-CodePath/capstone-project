@@ -35,11 +35,6 @@ class AddChoiceAdapter(val listOfChoices: List<String>): RecyclerView.Adapter<Ad
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         // Store references to elements in the layout view
-        val textView: TextView
-
-        init{
-            textView = itemView.findViewById(android.R.id.text1)
-        }
-
+        val textView: TextView = itemView.findViewById(android.R.id.text1)
     }
 }
