@@ -34,10 +34,11 @@ Help me choose!
 - [X] User should be able to see a splash screen
 - [X] User have two options to choose in the navigation bar 
 - [X] User should be able to enter as many options as they want
-- [ ] User should able to see a pop up with the decision chosen from the options they entered
+- [X] User should able to see a pop up with the decision chosen from the options they entered
 
 I don't know what i want
-* -> api
+- [X] User should be able to see an internal list if user doesn't know what to eat 
+
 
 
 **Optional Nice-to-have Stories**
@@ -46,6 +47,7 @@ I don't know what i want
 - [ ] Show me some receipes!
 - [ ] Group poll (???)
 - [ ] Loading" message to indicate choice being made
+- [ ] Call an API to populate 'I don't know that i want' 
 
 ### 2. Screen Archetypes
 
@@ -64,7 +66,7 @@ I don't know what i want
 
 **Flow Navigation** (Screen to Screen)
 
-* Main page -> enter selections
+* Main page -> enter selections -> Show me the selection 
 * Don't know -> select for me
 
 
@@ -146,6 +148,9 @@ I don't know what i want
 ## Unit 8: Milestone #2 GIF's 
 
 #### App Progress, adding and creating a list of choices 
-
-
 ![ezgif com-gif-maker (49)](https://github.com/Android-CodePath/capstone-project/blob/main/Milestone3.gif)
+
+
+## Unit 9: Milestone #2 GIF's 
+
+#### Working propotype
